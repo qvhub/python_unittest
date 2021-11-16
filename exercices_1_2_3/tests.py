@@ -1,6 +1,6 @@
 import unittest
 
-from mon_module.function import add, divide, concatenation
+from .mon_module.function import add, divide, concatenation
 
 class TestMonModule(unittest.TestCase):
 

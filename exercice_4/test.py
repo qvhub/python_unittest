@@ -2,7 +2,7 @@ import unittest
 import json
 import os
 
-from mon_module.analyzer import Analyzer
+from .mon_module.analyzer import Analyzer
 
 class TestMonModule(unittest.TestCase):
 
