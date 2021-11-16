@@ -20,6 +20,8 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-      - name: Run tests with unittest
-        run: python -m exercices_1_2_3/tests.py
+      - name: Run exercice_4 test with unittest
+        run: python exercice_4/test.py
+      - name: Run exercices_1_2_3 test with unittest
+        run: python exercices_1_2_3/tests.py
         #run: python -m unittest
